@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jquery</title>
+        <link rel="stylesheet" href="1-style.css">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link
+            href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            rel="stylesheet" id="bootstrap-css">
+
+        <link rel="stylesheet"
+            href="'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'">
+    </head>
+    <body>
+
+        <div class="container shadow mt-3 mb-2 main">
+            <div class="row">
+                <h1 style="text-align: center;">ÖDEME EKRANI</h1>
+            </div><br>
+            <div class="row">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>İsim Soyisim</label>
+                            <input type="text" class="form-control"
+                                id="cartName">
+                            <small class="form-text text-muted">Kart Sahibinin
+                                Adi ve Soyadi</small>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>Kart Numarasi</label>
+                            <input type="text" class="form-control"
+                                id="cardNumber">
+                            <small class="form-text text-muted">Kart Üzerindeki
+                                Numara</small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <label>Ay</label>
+                            <input type="text" class="form-control"
+                                id="cardMounth">
+                            <small class="form-text text-muted">Son Kullanma Ayi</small>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label>Yil</label>
+                            <input type="text" class="form-control"
+                                id="cardYear">
+                            <small class="form-text text-muted">Son Kullanma
+                                Yili</small>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label>CVV</label>
+                            <input type="text" class="form-control"
+                                id="cardCVV">
+                            <small class="form-text text-muted">Güvenlik Kodu</small>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <button type="submit" class="btn btn-danger">Kartla Öde</button>
+                    </div>
+                </form>
+            </div>
+
+        </div><br><br><br>
+
+        <div class="credit-card-wrap mt-4">
+            <div class="mk-icon-world-map"></div>
+            <div class="credit-card-inner">
+                <header class="header">
+                    <div class="credit-logo">
+                        <div class="shape"><span class="txt">SASA</span></div>
+                        <span class="text"> CART BİLGİLERİ</span>
+                    </div>
+                </header>
+                <div class="mk-icon-sim"></div>
+                <div class="credit-font credit-card-number">
+                </div><br>
+                <footer class="footer">
+                    <div class="clearfix">
+                        <div class="pull-left">
+                            <div class="credit-card-date"><span
+                                    class="title">Ay <br> Yil</span><span
+                                    class="credit-font"><span id="cardAy"></span>/<span id="cardYil"></span></span></div>
+                            <div class="credit-font credit-author"></div>
+                        </div>
+                        <div class="pull-right"></div></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="jquery.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script
+            src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script
+            src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="5-creditCard.js"></script>
+    </body>
+</html>

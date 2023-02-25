@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jquery</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 style="text-align: center;" class="mt-4">GALERY</h1><hr
+            style="border: solid;">
+
+        <div class="row">
+            <div class="col-md-2">
+                <input type="text" class="form-control" id="txtUserID"
+                    placeholder="User ID">
+            </div>
+            <div class="col-md-2">
+                <button id="btnGetAlbums" style="margin-left: 15px;"
+                    type="button" class="btn btn-danger mb-2">Albüm Göster</button>
+            </div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-2"><label>Galery:</label></div>
+                    <div class="col-md-6">
+                        <select id="cmbAlbums" class="form-control"></select>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="btnGetPhotos" type="button" class="btn
+                            btn-dark">Resim Getir</button>
+                    </div>
+                </div>
+            </div>
+        </div> <hr
+            style="border: solid;">
+        <div class="container" id="pnlPhotos">
+            
+        </div>
+
+
+        <!-- 
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image
+                            cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image
+                            cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image
+                            cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image
+                            cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+ -->
+        <script src="jquery.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="3-userGetAlbum.js"></script>
+    </body>
+</html>
